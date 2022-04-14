@@ -1,0 +1,608 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{whatLoudspeaker}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b7b4f2335bc882f5ced09530900f38be}{%
+           family={Case},
+           familyi={C\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{b7b4f2335bc882f5ced09530900f38be}
+      \strng{fullhash}{b7b4f2335bc882f5ced09530900f38be}
+      \strng{bibnamehash}{b7b4f2335bc882f5ced09530900f38be}
+      \strng{authorbibnamehash}{b7b4f2335bc882f5ced09530900f38be}
+      \strng{authornamehash}{b7b4f2335bc882f5ced09530900f38be}
+      \strng{authorfullhash}{b7b4f2335bc882f5ced09530900f38be}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{09}
+      \field{title}{New Grove Dictionary of Music and Musicians}
+      \field{year}{2014}
+    \endentry
+    \entry{howSpeaker}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3dbc49c277e5292f2c9b2ff7de9541e1}{%
+           family={Seydel},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {LANDR}%
+      }
+      \strng{namehash}{3dbc49c277e5292f2c9b2ff7de9541e1}
+      \strng{fullhash}{3dbc49c277e5292f2c9b2ff7de9541e1}
+      \strng{bibnamehash}{3dbc49c277e5292f2c9b2ff7de9541e1}
+      \strng{authorbibnamehash}{3dbc49c277e5292f2c9b2ff7de9541e1}
+      \strng{authornamehash}{3dbc49c277e5292f2c9b2ff7de9541e1}
+      \strng{authorfullhash}{3dbc49c277e5292f2c9b2ff7de9541e1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{6}
+      \field{title}{How Do Speakers Work: Understanding Audio Reproduction}
+      \field{urlday}{12}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://blog.landr.com/how-do-speakers-work/
+      \endverb
+      \verb{url}
+      \verb https://blog.landr.com/how-do-speakers-work/
+      \endverb
+    \endentry
+    \entry{speakerDatasheet}{manual}{}
+      \list{organization}{1}{%
+        {PUI Audio}%
+      }
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{number}{AS01508MS-SP11-WP-R}
+      \field{title}{Eight Ohm 15mm x 11mm Mobile Series Speaker}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://www.puiaudio.com/products/as01508ms-sp11-wp-r/
+      \endverb
+      \verb{url}
+      \verb https://www.puiaudio.com/products/as01508ms-sp11-wp-r/
+      \endverb
+    \endentry
+    \entry{soundTerminology}{book}{}
+      \name{author}{2}{}{%
+        {{hash=0134f1d1605238aeffdb6ca4ec8eb058}{%
+           family={Beranek},
+           familyi={B\bibinitperiod},
+           given={Leo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=888ac571786061d189dce2c4060eeeed}{%
+           family={Mellow},
+           familyi={M\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Elsevier Science}%
+        {Technology}%
+      }
+      \strng{namehash}{7105fd0cff019d475b87c40660dba1f4}
+      \strng{fullhash}{7105fd0cff019d475b87c40660dba1f4}
+      \strng{bibnamehash}{7105fd0cff019d475b87c40660dba1f4}
+      \strng{authorbibnamehash}{7105fd0cff019d475b87c40660dba1f4}
+      \strng{authornamehash}{7105fd0cff019d475b87c40660dba1f4}
+      \strng{authorfullhash}{7105fd0cff019d475b87c40660dba1f4}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{21}
+      \field{edition}{Second Edition}
+      \field{isbn}{9780128152270}
+      \field{month}{5}
+      \field{title}{Acoustics Sound Fields, Transducers and Vibration}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{17\bibrangedash 20}
+      \range{pages}{4}
+    \endentry
+    \entry{audioParameters}{book}{}
+      \name{author}{1}{}{%
+        {{hash=59e93af9b5aaf11ee0f47cd2e082a828}{%
+           family={Tomsett},
+           familyi={T\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Ara Institute of Canterbury: Department of Engineering}%
+        {Architectural Studies}%
+      }
+      \strng{namehash}{59e93af9b5aaf11ee0f47cd2e082a828}
+      \strng{fullhash}{59e93af9b5aaf11ee0f47cd2e082a828}
+      \strng{bibnamehash}{59e93af9b5aaf11ee0f47cd2e082a828}
+      \strng{authorbibnamehash}{59e93af9b5aaf11ee0f47cd2e082a828}
+      \strng{authornamehash}{59e93af9b5aaf11ee0f47cd2e082a828}
+      \strng{authorfullhash}{59e93af9b5aaf11ee0f47cd2e082a828}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{month}{8}
+      \field{title}{Mechanics of Machines}
+      \field{year}{2019}
+      \field{dateera}{ce}
+    \endentry
+    \entry{amplifiers}{online}{}
+      \name{author}{1}{}{%
+        {{hash=fd429e0791c3ccbecaebc8595b389f12}{%
+           family={Storr},
+           familyi={S\bibinitperiod},
+           given={Wayne},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Electronics Tutorials}%
+      }
+      \strng{namehash}{fd429e0791c3ccbecaebc8595b389f12}
+      \strng{fullhash}{fd429e0791c3ccbecaebc8595b389f12}
+      \strng{bibnamehash}{fd429e0791c3ccbecaebc8595b389f12}
+      \strng{authorbibnamehash}{fd429e0791c3ccbecaebc8595b389f12}
+      \strng{authornamehash}{fd429e0791c3ccbecaebc8595b389f12}
+      \strng{authorfullhash}{fd429e0791c3ccbecaebc8595b389f12}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{26}
+      \field{month}{7}
+      \field{title}{Amplifier Classes}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.electronics-tutorials.ws/amplifier/amplifier-classes.html
+      \endverb
+      \verb{url}
+      \verb https://www.electronics-tutorials.ws/amplifier/amplifier-classes.html
+      \endverb
+    \endentry
+    \entry{classDamplifier}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ab251a6379eacc0c1d43dbde3a57d8ef}{%
+           family={Gaalaas},
+           familyi={G\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Analogue Dialogue}%
+      }
+      \strng{namehash}{ab251a6379eacc0c1d43dbde3a57d8ef}
+      \strng{fullhash}{ab251a6379eacc0c1d43dbde3a57d8ef}
+      \strng{bibnamehash}{ab251a6379eacc0c1d43dbde3a57d8ef}
+      \strng{authorbibnamehash}{ab251a6379eacc0c1d43dbde3a57d8ef}
+      \strng{authornamehash}{ab251a6379eacc0c1d43dbde3a57d8ef}
+      \strng{authorfullhash}{ab251a6379eacc0c1d43dbde3a57d8ef}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Class D Amplifiers: What, Why, and How}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2006}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.analog.com/en/analog-dialogue/articles/class-d-audio-amplifiers.html
+      \endverb
+      \verb{url}
+      \verb https://www.analog.com/en/analog-dialogue/articles/class-d-audio-amplifiers.html
+      \endverb
+    \endentry
+    \entry{classDamplifiercircuit}{online}{}
+      \name{author}{1}{}{%
+        {{hash=15c2d901e335017a53c103c7859e7c38}{%
+           family={"Rohitbd"},
+           familyi={"\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wikipedia}%
+      }
+      \strng{namehash}{15c2d901e335017a53c103c7859e7c38}
+      \strng{fullhash}{15c2d901e335017a53c103c7859e7c38}
+      \strng{bibnamehash}{15c2d901e335017a53c103c7859e7c38}
+      \strng{authorbibnamehash}{15c2d901e335017a53c103c7859e7c38}
+      \strng{authornamehash}{15c2d901e335017a53c103c7859e7c38}
+      \strng{authorfullhash}{15c2d901e335017a53c103c7859e7c38}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{7}
+      \field{month}{7}
+      \field{title}{Block diagram of a basic switching or PWM (class-D) amplifier}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Class-D_amplifier#/media/File:Pwm_amp.svg
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Class-D_amplifier#/media/File:Pwm_amp.svg
+      \endverb
+    \endentry
+    \entry{siliconLCA}{article}{}
+      \name{author}{1}{}{%
+        {{hash=04c1362f7fe3beed1ed3d939c8915e95}{%
+           family={Boyd},
+           familyi={B\bibinitperiod},
+           given={Sarah\bibnamedelima B.},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {University of California, Berkeley}%
+      }
+      \strng{namehash}{04c1362f7fe3beed1ed3d939c8915e95}
+      \strng{fullhash}{04c1362f7fe3beed1ed3d939c8915e95}
+      \strng{bibnamehash}{04c1362f7fe3beed1ed3d939c8915e95}
+      \strng{authorbibnamehash}{04c1362f7fe3beed1ed3d939c8915e95}
+      \strng{authornamehash}{04c1362f7fe3beed1ed3d939c8915e95}
+      \strng{authorfullhash}{04c1362f7fe3beed1ed3d939c8915e95}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Life-cycle Assessment of Semiconductors}
+      \field{year}{2009}
+    \endentry
+    \entry{BATTLCA_1}{article}{}
+      \name{author}{4}{}{%
+        {{hash=038355103a95c9ebe8dfa23752f4270e}{%
+           family={Ellingsen},
+           familyi={E\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod}}}%
+        {{hash=081bd91aa690586f19e8400285976fe4}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Bhwna},
+           giveni={B\bibinitperiod}}}%
+        {{hash=2d6ebe936718bd4654f68bc8e9f8dbaf}{%
+           family={Majeau-Bettez},
+           familyi={M\bibinithyphendelim B\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+        {{hash=1a8bf0a1fb26f4ebdc0779c82a231ee4}{%
+           family={Srivastava},
+           familyi={S\bibinitperiod},
+           given={Akhilesh},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Journal of Industrial Ecology}%
+      }
+      \strng{namehash}{9a319fd19ee82d26dbc6f5041d2bce51}
+      \strng{fullhash}{ad8f7cf4f3d0b6d89f365ce36f6d1895}
+      \strng{bibnamehash}{ad8f7cf4f3d0b6d89f365ce36f6d1895}
+      \strng{authorbibnamehash}{ad8f7cf4f3d0b6d89f365ce36f6d1895}
+      \strng{authornamehash}{9a319fd19ee82d26dbc6f5041d2bce51}
+      \strng{authorfullhash}{ad8f7cf4f3d0b6d89f365ce36f6d1895}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{Life Cycle Assessment of a Lithium-Ion Battery Vehicle Pack}
+      \field{year}{2013}
+    \endentry
+    \entry{BATTLCA_2}{online}{}
+      \name{author}{3}{}{%
+        {{hash=83a4af1503289a2d4560ddf2b6738bb4}{%
+           family={Peiro},
+           familyi={P\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3731720a5b2fd67518c0e82cec6dd3c0}{%
+           family={Mendez},
+           familyi={M\bibinitperiod},
+           given={Gara},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6dcd7a50e14594e65cd4b2545cebe0d9}{%
+           family={Ayres},
+           familyi={A\bibinitperiod},
+           given={Rober},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{1bcc343c5d173d59b3098a7f5b375396}
+      \strng{fullhash}{1bcc343c5d173d59b3098a7f5b375396}
+      \strng{bibnamehash}{1bcc343c5d173d59b3098a7f5b375396}
+      \strng{authorbibnamehash}{1bcc343c5d173d59b3098a7f5b375396}
+      \strng{authornamehash}{1bcc343c5d173d59b3098a7f5b375396}
+      \strng{authorfullhash}{1bcc343c5d173d59b3098a7f5b375396}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{11}
+      \field{month}{7}
+      \field{title}{Lithium: Sources, Production, Uses, and Recovery Outlook}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{pages}{986\bibrangedash 996}
+      \range{pages}{11}
+    \endentry
+    \entry{PLALCA_1}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=6ea0fea000ae5be1dc5ffa5e5d73d6a9}{%
+           family={Ana\bibnamedelima Morao},
+           familyi={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Francois\bibnamedelimb de\bibnamedelima Bie},
+           giveni={F\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Journal of Polymers}%
+        {the Environment}%
+      }
+      \strng{namehash}{6ea0fea000ae5be1dc5ffa5e5d73d6a9}
+      \strng{fullhash}{6ea0fea000ae5be1dc5ffa5e5d73d6a9}
+      \strng{bibnamehash}{6ea0fea000ae5be1dc5ffa5e5d73d6a9}
+      \strng{authorbibnamehash}{6ea0fea000ae5be1dc5ffa5e5d73d6a9}
+      \strng{authornamehash}{6ea0fea000ae5be1dc5ffa5e5d73d6a9}
+      \strng{authorfullhash}{6ea0fea000ae5be1dc5ffa5e5d73d6a9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Life Cycle Impact Assessment of Polylactic Acid (PLA) Produced from Sugarcane in Thailand}
+      \field{year}{2019}
+      \field{pages}{2523\bibrangedash 2539}
+      \range{pages}{17}
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10924-019-01525-9
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10924-019-01525-9
+      \endverb
+    \endentry
+    \entry{PLALCA_2}{article}{}
+      \name{author}{1}{}{%
+        {{hash=93285d547229d890aa16a4830ef1e455}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Jennifer\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{93285d547229d890aa16a4830ef1e455}
+      \strng{fullhash}{93285d547229d890aa16a4830ef1e455}
+      \strng{bibnamehash}{93285d547229d890aa16a4830ef1e455}
+      \strng{authorbibnamehash}{93285d547229d890aa16a4830ef1e455}
+      \strng{authornamehash}{93285d547229d890aa16a4830ef1e455}
+      \strng{authorfullhash}{93285d547229d890aa16a4830ef1e455}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Comparative Life cycle Assessment of Polylactic acid (PLA) and Polyethylene	terephthalate (PET)}
+      \field{year}{2011}
+    \endentry
+    \entry{usageLCA_1}{online}{}
+      \list{organization}{1}{%
+        {maxim integrated}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{day}{27}
+      \field{month}{3}
+      \field{title}{Lithium Coin-Cell Batteries: Predicting an Application Lifetime}
+      \field{urlday}{30}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.maximintegrated.com/en/design/technical-documents/app-notes/5/505.html?fbclid=IwAR11KuLfSsnamO8Tnsw5T2qzOHwBwjlBeOy0LmZoyCxUu3XYCRnXpvFqTbQ
+      \endverb
+      \verb{url}
+      \verb https://www.maximintegrated.com/en/design/technical-documents/app-notes/5/505.html?fbclid=IwAR11KuLfSsnamO8Tnsw5T2qzOHwBwjlBeOy0LmZoyCxUu3XYCRnXpvFqTbQ
+      \endverb
+    \endentry
+    \entry{WALKER2019505}{incollection}{}
+      \name{author}{11}{}{%
+        {{hash=b8e3d2dc2dbd59ffdf59450b4cf9b780}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={Tony\bibnamedelima R.},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=a14cca6673ed545a98718fd1092edc95}{%
+           family={Adebambo},
+           familyi={A\bibinitperiod},
+           given={Olubukola},
+           giveni={O\bibinitperiod}}}%
+        {{hash=6bcb9034cf40beb037140eed3e3d5642}{%
+           family={{Del Aguila Feijoo}},
+           familyi={D\bibinitperiod},
+           given={Monica\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=b0c24e55c8f7b83a6400919e21842ff7}{%
+           family={Elhaimer},
+           familyi={E\bibinitperiod},
+           given={Elias},
+           giveni={E\bibinitperiod}}}%
+        {{hash=3ff0279d927c192e76d290942618c071}{%
+           family={Hossain},
+           familyi={H\bibinitperiod},
+           given={Tahazzud},
+           giveni={T\bibinitperiod}}}%
+        {{hash=e57e42f3d3ed6d56f0826bd8943b4eab}{%
+           family={Edwards},
+           familyi={E\bibinitperiod},
+           given={Stuart\bibnamedelima Johnston},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=1c85f057b3a4fee52a44b46480836927}{%
+           family={Morrison},
+           familyi={M\bibinitperiod},
+           given={Courtney\bibnamedelima E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=5b5d1309e360b8dd8c81d11bca5bf5d9}{%
+           family={Romo},
+           familyi={R\bibinitperiod},
+           given={Jessica},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a9e989683a209b8187f181131552c812}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Nameeta},
+           giveni={N\bibinitperiod}}}%
+        {{hash=005a5bfea2e7121b290955b067b2243a}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Stephanie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=76cb59b80afdb63a572bb7215410f8a6}{%
+           family={Zomorodi},
+           familyi={Z\bibinitperiod},
+           given={Sanam},
+           giveni={S\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=15557cacc6e84677a9cd4a5e58eeabe2}{%
+           family={Sheppard},
+           familyi={S\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{6c31209f37a9dac0dc7986dc30b7fc8f}
+      \strng{fullhash}{4a38c2ba6eb53de36a70ffea5957151c}
+      \strng{bibnamehash}{6c31209f37a9dac0dc7986dc30b7fc8f}
+      \strng{authorbibnamehash}{6c31209f37a9dac0dc7986dc30b7fc8f}
+      \strng{authornamehash}{6c31209f37a9dac0dc7986dc30b7fc8f}
+      \strng{authorfullhash}{4a38c2ba6eb53de36a70ffea5957151c}
+      \strng{editorbibnamehash}{15557cacc6e84677a9cd4a5e58eeabe2}
+      \strng{editornamehash}{15557cacc6e84677a9cd4a5e58eeabe2}
+      \strng{editorfullhash}{15557cacc6e84677a9cd4a5e58eeabe2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{World Seas: an Environmental Evaluation (Second Edition)}
+      \field{edition}{Second Edition}
+      \field{isbn}{978-0-12-805052-1}
+      \field{title}{Chapter 27 - Environmental Effects of Marine Transportation}
+      \field{year}{2019}
+      \field{pages}{505\bibrangedash 530}
+      \range{pages}{26}
+      \verb{doi}
+      \verb https://doi.org/10.1016/B978-0-12-805052-1.00030-9
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/B9780128050521000309
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/B9780128050521000309
+      \endverb
+    \endentry
+    \entry{pcbRecycling_1}{website}{}
+      \list{publisher}{1}{%
+        {Candor Circuit Boards}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{day}{23}
+      \field{month}{4}
+      \field{title}{PCB Recycling: How to Recycle Circuit Boards}
+      \field{urlday}{30}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.candorind.com/pcb-recycling/#thermal-recovering
+      \endverb
+      \verb{url}
+      \verb https://www.candorind.com/pcb-recycling/#thermal-recovering
+      \endverb
+    \endentry
+    \entry{speakerDriveSimple}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8bb7f6a645915c7c3e51be240142f931}{%
+           family={hamblen},
+           familyi={h\bibinitperiod},
+           prefix={jim},
+           prefixi={j\bibinitperiod}}}%
+      }
+      \strng{namehash}{8bb7f6a645915c7c3e51be240142f931}
+      \strng{fullhash}{8bb7f6a645915c7c3e51be240142f931}
+      \strng{bibnamehash}{8bb7f6a645915c7c3e51be240142f931}
+      \strng{authorbibnamehash}{8bb7f6a645915c7c3e51be240142f931}
+      \strng{authornamehash}{8bb7f6a645915c7c3e51be240142f931}
+      \strng{authorfullhash}{8bb7f6a645915c7c3e51be240142f931}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{1}
+      \field{title}{Using a Speaker for Audio Output}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://os.mbed.com/users/4180_1/notebook/using-a-speaker-for-audio-output/
+      \endverb
+      \verb{url}
+      \verb https://os.mbed.com/users/4180_1/notebook/using-a-speaker-for-audio-output/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

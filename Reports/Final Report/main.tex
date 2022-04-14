@@ -1,0 +1,145 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{color}
+
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage{cite}
+\usepackage[numbers]{natbib}
+\usepackage{array}
+\usepackage{adjustbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{caption}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{mathtools}
+\usepackage{multirow}
+\usepackage{subcaption}
+\usepackage{wasysym}
+\usepackage{listings}
+\usepackage[toc,page]{appendix}
+\usepackage{filecontents}
+
+\setlength{\oddsidemargin}{0mm}
+\setlength{\evensidemargin}{-14mm}
+\setlength{\marginparwidth}{0cm}
+\setlength{\marginparsep}{0cm}
+\setlength{\headheight}{0mm}
+\setlength{\topmargin}{2mm}
+\setlength{\headsep}{0cm}
+\setlength{\textheight}{240mm}
+\setlength{\textwidth}{160mm}
+\setlength{\topskip}{0mm}
+\setlength{\footskip}{10mm}
+\setlength{\parindent}{8ex}
+
+\newcommand{\comment}[1]{\emph{\color{blue}#1}}
+
+
+
+\begin{document}
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+ 
+        {\huge\textbf{FYP Group 14\\}}
+         
+         \vspace{12cm}
+         \textbf{Student Names:\\Toby Bourke, Bill Liu, Laurence Prins, Aryan Srivastava}\\
+         \vspace{1cm}
+         
+         \textbf{Student IDs:\\84984154, 49791816, 84063049, 43958596}\\
+         
+        \vspace{3.5cm}
+        
+        20\textsuperscript{th} of October 2021
+             
+    \end{center}
+ \end{titlepage}
+
+\section*{Executive Summary}
+\input{exec_sum.tex}
+
+\pagebreak
+\tableofcontents
+
+\pagebreak
+\section{Introduction}
+\input{intro.tex}
+
+\pagebreak
+\section{Aryan Srivastava - Sound}
+\input{aryan.tex}
+
+\pagebreak
+\section{Laurence Prins - Speaker}
+\input{laurence.tex}
+
+\pagebreak
+\section{Bill Liu - Microphone}
+\input{bill.tex}
+
+\pagebreak
+\section{Toby Bourke - 3D Mesh}
+\input{toby.tex}
+
+\pagebreak
+\section{Sustainability}
+\input{sus.tex}
+
+\pagebreak
+\section{Conclusion}
+\input{conclusion.tex}
+
+\pagebreak
+\section{Recommendations}
+\input{recconmendations.tex}
+
+\pagebreak
+\addcontentsline{toc}{section}{References}
+\bibliographystyle{IEEEtran}
+\bibliography{ref}
+
+\pagebreak
+\begin{appendices}
+
+	\section{Attenuation Simulations Appendix}
+	\label{AppendixA}
+	\input{AppendixA}
+	
+	\pagebreak
+	\section{Green Zone Appendix}
+	\label{AppendixB}
+	\input{AppendixB}
+	
+	\pagebreak
+	\section{Test Code Appendix}
+	\label{AppendixC}
+	\input{AppendixC}
+
+
+    \pagebreak
+    \section{Appendix}
+    \label{sec:l_append}
+    \input{l_appendix.tex}
+   
+    
+    \pagebreak
+    \section{Microphone Code Appendix}
+    \label{sec:bill_code_append}
+    \input{Bill_appendix.tex}    
+    
+    \pagebreak
+    \section{Mesh Code Appendix}
+    \label{sec:tob_code_append}
+    \input{mesh_code_appendix.tex}
+\end{appendices}
+
+\end{document}
+

@@ -1,0 +1,30 @@
+\contentsline {section}{\numberline {1}Project Overview}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Project Objective and Justification}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Work Identification}{4}{subsection.1.2}
+\contentsline {section}{\numberline {2}Progress to Date}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}Background Research}{5}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}3D Mesh Generation}{5}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Audio Tone Start Detection}{6}{subsubsection.2.1.2}
+\contentsline {subsection}{\numberline {2.2}Theoretical Designs}{6}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Distance Measurement}{6}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Multi-device Syncing}{7}{subsubsection.2.2.2}
+\contentsline {subsection}{\numberline {2.3}Software Development}{8}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Summary and Conclusion}{10}{subsection.2.4}
+\contentsline {section}{\numberline {3}Remaining Tasks}{11}{section.3}
+\contentsline {subsection}{\numberline {3.1}Tasks}{11}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Distance Measurement}{11}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Prototype Distance Measurement}{11}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}Multi-device Syncing}{11}{subsubsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.4}3D Mesh Generation}{11}{subsubsection.3.1.4}
+\contentsline {subsection}{\numberline {3.2}Timeline}{11}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Budget Summary}{12}{subsection.3.3}
+\contentsline {section}{\numberline {4}Sustainability Analysis - Life Cycle Analysis}{13}{section.4}
+\contentsline {subsection}{\numberline {4.1}Base Component Procurement}{13}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Silicon Semiconductors}{13}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}Battery}{13}{subsubsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.3}Housing}{13}{subsubsection.4.1.3}
+\contentsline {subsection}{\numberline {4.2}Production}{13}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Distribution}{13}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Usage}{14}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}End of Life}{14}{subsection.4.5}
+\contentsline {section}{\numberline {5}Conclusion}{15}{section.5}

@@ -1,0 +1,59 @@
+
+int f_0 = 1000; // hz
+int f_1 = 2000; // hz
+int T = 1000; // ms
+
+static float f_dt = f_0;
+static double dt;
+float chirpRate = (f_1 - f_0)/(T/1000);
+
+double interruptRate = 1000; // us
+double dt_us = interruptRate/1000000);
+int AUDIO_OUT_PIN = 3;
+
+IntervalTimer increaseFreqInterrupt;
+
+void 
+setup() 
+{
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+}
+
+char incomingByte;
+
+void 
+loop() 
+{
+  // put your main code here, to run repeatedly:
+  if (Serial.available() > 0) {
+    incomingByte = Serial.read();
+    if (incomingByte == 'a') {
+      Serial.println(chirpRate);
+      Serial.print("\n");
+      playChirp();
+    }
+  }
+}
+
+void
+playChirp()
+{
+  analogWriteFrequency(AUDIO_OUT_PIN, f_dt);
+  increaseFreqInterrupt.begin(increaseFreq, interruptRate);
+  interrupts();
+  delay(T);
+  noInterrupts();
+  increaseFreqInterrupt.end();
+  dt = 0;
+  f_dt = 0;
+}
+
+void
+increaseFreq()
+{
+  dt = dt + (interruptRate/1000000);
+  f_dt = chirpRate*dt + f_0;
+  Serial.println(interruptRate/1000000);
+  analogWriteFrequency(AUDIO_OUT_PIN, f_dt);
+}

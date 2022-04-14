@@ -1,0 +1,118 @@
+Table \ref{tab:L_waveformInteractions} shows a list of accepted functions for creating and interacting with waveforms. \\
+
+For example, to create a waveform that plays a 10kHz sinusoidal tone for 1 second, type "$<$n(10000,10000,1000,s)$>$" into the serial interface. This will create a new waveform and give it an identifier. To display the waveforms to find out what identifier the new waveform was given, can then type "$<$d(a)$>$" which will print out the list of waveforms. As this was the first waveform created after the initial one created on startup, typing "$<$p(1)$>$" will play the 10kHz tone. If it was actually desired to have a linear FM sweep between 7kHz to 10kHz over 250 ms, then the waveform can be edited using "$<$e(1,f0,7000,time,250)$>$". Typing "$<$d(a)$>$" will then display the new waveform. Playing the tone now will then play the linear FM sweep between 7kHz and 10kHz over 250ms instead of the 10kHz tone. \\
+\begin{table} [!htb]
+	\caption{Waveform interaction functions}
+	\label{tab:L_waveformInteractions}
+	\centering
+	\begin{tabular}{ |m{0.25\textwidth}|m{0.35\textwidth}|m{0.4\textwidth}| } 
+		\hline
+		Serial Command & Description & Inputs \\ 
+		\hline
+		\hline
+		\centering $<n(f0,f1,t,s)>$ & Creates a new waveform, gives it a unique identifier, and stores it at the head of the singly linked waveform list. & f0 = initial frequency [Hz]
+		
+		f1 = final frequency [Hz].
+		
+		t = wave time [s].
+		
+		s = waveshape 
+		
+		[s = sinusoidal, p = square]. \\
+		
+		\hline
+		\centering$<e(i,p1,v1,p2,v2,$
+		\centering$…,pn,vn)>$ & Updates the specified waveform with the new values for the specified properties. & i = identifier of wave to edit.
+		
+		pn = property (f0, f1, time or shape).
+		
+		vn = new value. \\
+		
+		\hline
+		\centering$<r(i)>$ & Deletes the specified waveform. & i = identifier of wave to remove.
+		
+		If i = a then deletes all waveforms in the linked list instead. \\
+		\hline
+		\centering$<d(i)>$ & Prints all the properties of the specified waveform into the serial interface. & i = identifier of wave to display.
+		
+		If i = a then displays all waveforms in the linked list instead.\\
+		\hline
+		\centering$<p(i)>$ & Plays the specified waveform through the audio output pin, 
+		if f0 $\neq$ f1 then this will play a linear FM sweep between those frequencies. & i = identifier of wave to play. \\
+		
+		\hline
+		\centering$<l(i)>$ & Plays the specified waveform through the audio output pin until the serial reads a new input. & i = identifier of wave to loop. \\
+		\hline		
+	\end{tabular}
+\end{table}
+\pagebreak
+
+Table \ref{tab:L_toneInteractions} shows a list of accepted functions for playing tones without using waveforms. \\
+
+For example, to play a 10kHz tone over 1 second, type "$<$pt(10000,10000,1000,s)$>$" will play that tone. Typing "$<$pt(7000,10000,250,s)$>$" will play the linear sweep again. This method allows for quick testing of different waveforms, however requires more typing in the long run. If the user is wanting to repeatedly test a specific tone, they should use a waveform instead. \\
+\begin{table} [!htb]
+	\caption{Play tone functions}
+	\label{tab:L_toneInteractions}
+	\centering
+	\begin{tabular}{ |m{0.25\textwidth}|m{0.35\textwidth}|m{0.4\textwidth}| } 
+		\hline
+		Serial Command & Description & Inputs \\ 
+		\hline
+		\hline
+		\centering $<pt(f0,f1,t,s)>$ & Plays a tone with the specified properties through the audio output pin. if f0 $\neq$ f1 then this will play a linear FM sweep between those frequencies. & f0 = initial frequency [Hz]
+		
+		f1 = final frequency [Hz].
+		
+		t = wave time [s].
+		
+		s = waveshape 
+		
+		[s = sinusoidal, p = square]. \\
+		
+		\hline
+		\centering $<lt(f0,f1,t,s)>$ & Plays a tone with the specified properties through the audio output pin until the serial reads a new input. & f0 = initial frequency [Hz].
+		
+		f1 = final frequency [Hz].
+		
+		t = wave time [s].
+		
+		s = waveshape 
+		
+		[s = sinusoidal, p = square] \\
+		
+		\hline
+		
+	\end{tabular}
+\end{table} \\
+\pagebreak
+Table \ref{tab:L_transmitterInteractions} shows a list of functions for interacting with the transmitter object. \\
+
+For example, to see what properties the transmitter has, type "$<$TxDisp()$>$" into the serial interface. This will print all the transmitter properties into the serial monitor. If the user wants to update the waveform from waveform 0 to waveform 1 type "$<$TxCfg(waveform, 1)$>$". If the waveform is deleted from the linked list, then the transmitter still has knowledge of the waveform, so transmitting will play the old waveform. \\
+
+\begin{table} [!htb]
+	\caption{Transmitter functions}
+	\label{tab:L_transmitterInteractions}
+	\centering
+	\begin{tabular}{ |m{0.25\textwidth}|m{0.35\textwidth}|m{0.4\textwidth}| } 
+		\hline
+		Serial Command & Description & Inputs \\ 
+		\hline
+		\hline
+		\centering $<$TxCfg(p1,v1,p2,v2,
+		…,pn,vn $>$ & Configure the transmitter with the specified values. & i = identifier of wave.
+		
+		pn = property (pin, waveform, or delay).
+		
+		vn = new value. \\
+		\hline
+		\centering $<$TxDisp()$>$ & Displays all the current properties of the transmitter. & N/A \\
+		\hline
+		\centering $<$Tx()$>$ & \begin{enumerate}
+			\item Pulls the transmitter pin high.
+			\item Transmits the specified waveform through the audio output pin.
+			\item Waits delay period.
+			\item Pulls pin low.
+		\end{enumerate} & N/A \\
+		\hline
+	\end{tabular}
+\end{table}

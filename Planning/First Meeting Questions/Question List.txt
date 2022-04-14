@@ -1,0 +1,7 @@
+Have you got exsisting systems that we are building off?
+
+Do we need to know the positions of LIMPETs realative to each other?
+
+What are some examples of assets that will need to be tracked?
+
+Are we using Dev Board or making a PCB?

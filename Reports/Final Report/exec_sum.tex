@@ -1,0 +1,15 @@
+Office workers can spend up to ninety-thousand hours of their life at work. It is important that these office environments are as ergonomic as possible for the sake of the workers’ health and well-being. Wellnomics develop systems for improving office space workers health and well-being and are developing a device that will attempt to map an indoor space using audio technology. Use of the device will allow better understanding of how to structure the office layout for improving the environment. \\
+
+The goal of the project was to lay the foundations for using audio technology to measure distance. The user requirements were: the system must use sound to measure distance, a model should be built to estimate device position, the devices should be low cost, the devices should be low power, the devices should be small and the designed system should be robust to noise. \\
+
+The work was split up into four areas: the sound to play, the speaker system, the microphone, and the area mapping. Each of these areas required research, simulations and prototyping. \\
+
+Research into the sound to play found the most common forms of noise within an office space, the absorbtion and reflection of various office space materials and the frequency response of the speaker and microphone. It was concluded that the best frequency range for the system is between 1600Hz and 10kHz, depending on the target environment. If nothing is known about the environment a frequency of 1.8 kHz is recommended. \\
+
+A system for the speaker needed to be designed such that the output was a loud and accurate tone. Development of the speaker system involved production of hardware for making the tone, and development of the software to produce sinusoids. The final system can play sinusoidal tones and linear sweeps of between 600Hz and 20kHz, the full range of the speaker. \\
+
+The microphone used in this project is a small I2S MEMs microphone. Research was first conducted on how to make the microphone work and understand and use the output. Methods were theorised for conducting distance measurements with the microphone. Unfortunately, due to the speed of the FFT there would be an uncertainty of 3.773 metres. \\
+
+Work was conducted on how to measure distance. It was concluded that the best method is to use a linear FM sweep and use of convolution to detect the start of the waveform. Devices utilising a "virtual wall" could then asynchronously measure distance. Simulations were run for 2D and 3D mesh generation for mapping the devices. \\
+
+Although no distance measurements were conducted using the devices in this project, the framework is all set up for future development. Future development is based around further testing and integrating the methods for distance measurements. Sound signals need to be further profiled, the microphone needs to up the speed of the FFT function to improve accuracy, and improvement needs to be done on the 3D mesh generation. \\

@@ -1,0 +1,59 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{speakerDatasheet}{manual}{}
+      \list{organization}{1}{%
+        {PUI Audio}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{number}{AS01508MS-SP11-WP-R}
+      \field{title}{Eight Ohm 15mm x 11mm Mobile Series Speaker}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://www.puiaudio.com/products/as01508ms-sp11-wp-r/
+      \endverb
+      \verb{url}
+      \verb https://www.puiaudio.com/products/as01508ms-sp11-wp-r/
+      \endverb
+    \endentry
+    \entry{amplifierDatasheet}{manual}{}
+      \list{organization}{1}{%
+        {Diodes Incorporated}%
+      }
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{number}{PAM8403}
+      \field{title}{Filterless 3W Class-D Sterio Audio Amplifier}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://nz.mouser.com/c/ds/?series=PAM8403
+      \endverb
+      \verb{url}
+      \verb https://nz.mouser.com/c/ds/?series=PAM8403
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

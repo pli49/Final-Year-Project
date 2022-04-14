@@ -1,0 +1,46 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{lm386datasheet}{manual}{}
+      \list{organization}{1}{%
+        {Texas Instraments}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{number}{LM386}
+      \field{title}{LM386 Low Voltage Audio Power Amplifier}
+      \field{urlday}{29}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2004}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ti.com/product/LM386?keyMatch=LM386&tisearch=search-everything&usecase=GPN
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/product/LM386?keyMatch=LM386&tisearch=search-everything&usecase=GPN
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,487 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{howSpeaker}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3dbc49c277e5292f2c9b2ff7de9541e1}{%
+           family={Seydel},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {LANDR}%
+      }
+      \strng{namehash}{3dbc49c277e5292f2c9b2ff7de9541e1}
+      \strng{fullhash}{3dbc49c277e5292f2c9b2ff7de9541e1}
+      \strng{bibnamehash}{3dbc49c277e5292f2c9b2ff7de9541e1}
+      \strng{authorbibnamehash}{3dbc49c277e5292f2c9b2ff7de9541e1}
+      \strng{authornamehash}{3dbc49c277e5292f2c9b2ff7de9541e1}
+      \strng{authorfullhash}{3dbc49c277e5292f2c9b2ff7de9541e1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How Do Speakers Work: Understanding Audio Reproduction}
+      \field{urlday}{12}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://blog.landr.com/how-do-speakers-work/
+      \endverb
+      \verb{url}
+      \verb https://blog.landr.com/how-do-speakers-work/
+      \endverb
+      \warn{\item Entry 'howSpeaker' (References.bib): Invalid format '2017-6-18' of date field 'date' - ignoring}
+    \endentry
+    \entry{speakerDiaphragm}{online}{}
+      \name{author}{1}{}{%
+        {{hash=2e6c1ffa33aef821a951e73613f7b564}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {howstuffworks}%
+      }
+      \strng{namehash}{2e6c1ffa33aef821a951e73613f7b564}
+      \strng{fullhash}{2e6c1ffa33aef821a951e73613f7b564}
+      \strng{bibnamehash}{2e6c1ffa33aef821a951e73613f7b564}
+      \strng{authorbibnamehash}{2e6c1ffa33aef821a951e73613f7b564}
+      \strng{authornamehash}{2e6c1ffa33aef821a951e73613f7b564}
+      \strng{authorfullhash}{2e6c1ffa33aef821a951e73613f7b564}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Making Sound: Diaphragm}
+      \field{urlday}{12}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://electronics.howstuffworks.com/speaker.htm
+      \endverb
+      \verb{url}
+      \verb https://electronics.howstuffworks.com/speaker.htm
+      \endverb
+      \warn{\item Entry 'speakerDiaphragm' (References.bib): Invalid format '2001-2-2' of date field 'date' - ignoring}
+    \endentry
+    \entry{speakerTypes}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9f86c52bc1f98406961ce74a3757d0d2}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Lifewire}%
+      }
+      \strng{namehash}{9f86c52bc1f98406961ce74a3757d0d2}
+      \strng{fullhash}{9f86c52bc1f98406961ce74a3757d0d2}
+      \strng{bibnamehash}{9f86c52bc1f98406961ce74a3757d0d2}
+      \strng{authorbibnamehash}{9f86c52bc1f98406961ce74a3757d0d2}
+      \strng{authornamehash}{9f86c52bc1f98406961ce74a3757d0d2}
+      \strng{authorfullhash}{9f86c52bc1f98406961ce74a3757d0d2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{Woofers, Tweeters, and Crossovers: Understanding Loudspeakers}
+      \field{urlday}{12}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.lifewire.com/all-about-speakers-4125129
+      \endverb
+      \verb{url}
+      \verb https://www.lifewire.com/all-about-speakers-4125129
+      \endverb
+    \endentry
+    \entry{audioParameters}{book}{}
+      \name{author}{1}{}{%
+        {{hash=59e93af9b5aaf11ee0f47cd2e082a828}{%
+           family={Tomsett},
+           familyi={T\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Ara Institute of Canterbury: Department of Engineering}%
+        {Architectural Studies}%
+      }
+      \strng{namehash}{59e93af9b5aaf11ee0f47cd2e082a828}
+      \strng{fullhash}{59e93af9b5aaf11ee0f47cd2e082a828}
+      \strng{bibnamehash}{59e93af9b5aaf11ee0f47cd2e082a828}
+      \strng{authorbibnamehash}{59e93af9b5aaf11ee0f47cd2e082a828}
+      \strng{authornamehash}{59e93af9b5aaf11ee0f47cd2e082a828}
+      \strng{authorfullhash}{59e93af9b5aaf11ee0f47cd2e082a828}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mechanics of Machines}
+      \warn{\item Entry 'audioParameters' (References.bib): Invalid format '2019-8-19' of date field 'date' - ignoring}
+    \endentry
+    \entry{soundPower}{online}{}
+      \name{author}{1}{}{%
+        {{hash=1aefb83b4db82a425d0a5e05bc104564}{%
+           family={Rechner},
+           familyi={R\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {sengpielaudio}%
+      }
+      \strng{namehash}{1aefb83b4db82a425d0a5e05bc104564}
+      \strng{fullhash}{1aefb83b4db82a425d0a5e05bc104564}
+      \strng{bibnamehash}{1aefb83b4db82a425d0a5e05bc104564}
+      \strng{authorbibnamehash}{1aefb83b4db82a425d0a5e05bc104564}
+      \strng{authornamehash}{1aefb83b4db82a425d0a5e05bc104564}
+      \strng{authorfullhash}{1aefb83b4db82a425d0a5e05bc104564}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Compare Sound Power, Sound Pressure and Sound Intensity in a distance from the sound source}
+      \field{urlday}{12}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.sengpielaudio.com/calculator-soundpower.htm
+      \endverb
+      \verb{url}
+      \verb http://www.sengpielaudio.com/calculator-soundpower.htm
+      \endverb
+    \endentry
+    \entry{soundIntensity}{online}{}
+      \name{author}{1}{}{%
+        {{hash=872b26dc1112a3c3595c8efe5447e047}{%
+           family={Physics},
+           familyi={P\bibinitperiod},
+           given={Lumen},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{872b26dc1112a3c3595c8efe5447e047}
+      \strng{fullhash}{872b26dc1112a3c3595c8efe5447e047}
+      \strng{bibnamehash}{872b26dc1112a3c3595c8efe5447e047}
+      \strng{authorbibnamehash}{872b26dc1112a3c3595c8efe5447e047}
+      \strng{authornamehash}{872b26dc1112a3c3595c8efe5447e047}
+      \strng{authorfullhash}{872b26dc1112a3c3595c8efe5447e047}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sound Intensity and Sound Level}
+      \field{urlday}{12}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://courses.lumenlearning.com/physics/chapter/17-3-sound-intensity-and-sound-level/
+      \endverb
+      \verb{url}
+      \verb https://courses.lumenlearning.com/physics/chapter/17-3-sound-intensity-and-sound-level/
+      \endverb
+    \endentry
+    \entry{soundPressure}{online}{}
+      \name{author}{1}{}{%
+        {{hash=106ad76a5d7662e129ab6329279d5d34}{%
+           family={ToolBox},
+           familyi={T\bibinitperiod},
+           given={Engineering},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{106ad76a5d7662e129ab6329279d5d34}
+      \strng{fullhash}{106ad76a5d7662e129ab6329279d5d34}
+      \strng{bibnamehash}{106ad76a5d7662e129ab6329279d5d34}
+      \strng{authorbibnamehash}{106ad76a5d7662e129ab6329279d5d34}
+      \strng{authornamehash}{106ad76a5d7662e129ab6329279d5d34}
+      \strng{authorfullhash}{106ad76a5d7662e129ab6329279d5d34}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sound Pressure}
+      \field{urlday}{12}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2004}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.engineeringtoolbox.com/sound-pressure-d_711.html
+      \endverb
+      \verb{url}
+      \verb https://www.engineeringtoolbox.com/sound-pressure-d_711.html
+      \endverb
+    \endentry
+    \entry{soundPowerCalculator}{online}{}
+      \name{author}{1}{}{%
+        {{hash=2613ab14233fd1f6d8af2f537f93e0be}{%
+           family={WKC},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{2613ab14233fd1f6d8af2f537f93e0be}
+      \strng{fullhash}{2613ab14233fd1f6d8af2f537f93e0be}
+      \strng{bibnamehash}{2613ab14233fd1f6d8af2f537f93e0be}
+      \strng{authorbibnamehash}{2613ab14233fd1f6d8af2f537f93e0be}
+      \strng{authornamehash}{2613ab14233fd1f6d8af2f537f93e0be}
+      \strng{authorfullhash}{2613ab14233fd1f6d8af2f537f93e0be}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sound Pressure to Sound Power Converter}
+      \field{urlday}{12}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.wkcgroup.com/tools-room/sound-power-sound-pressure-converter/
+      \endverb
+      \verb{url}
+      \verb https://www.wkcgroup.com/tools-room/sound-power-sound-pressure-converter/
+      \endverb
+    \endentry
+    \entry{speakerDatasheet}{manual}{}
+      \list{organization}{1}{%
+        {PUI Audio}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{number}{AS01508MS-SP11-WP-R}
+      \field{title}{Eight Ohm 15mm x 11mm Mobile Series Speaker}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://www.puiaudio.com/products/as01508ms-sp11-wp-r/
+      \endverb
+      \verb{url}
+      \verb https://www.puiaudio.com/products/as01508ms-sp11-wp-r/
+      \endverb
+    \endentry
+    \entry{speakerPowerDistance}{online}{}
+      \name{author}{1}{}{%
+        {{hash=18f6b071369ade6ce5424d81b38df3ad}{%
+           family={Audio},
+           familyi={A\bibinitperiod},
+           given={PUI},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{18f6b071369ade6ce5424d81b38df3ad}
+      \strng{fullhash}{18f6b071369ade6ce5424d81b38df3ad}
+      \strng{bibnamehash}{18f6b071369ade6ce5424d81b38df3ad}
+      \strng{authorbibnamehash}{18f6b071369ade6ce5424d81b38df3ad}
+      \strng{authornamehash}{18f6b071369ade6ce5424d81b38df3ad}
+      \strng{authorfullhash}{18f6b071369ade6ce5424d81b38df3ad}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Speaker Power and Distance}
+      \field{urlday}{12}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.puiaudio.com/pages/speaker-power-and-distance
+      \endverb
+      \verb{url}
+      \verb https://www.puiaudio.com/pages/speaker-power-and-distance
+      \endverb
+    \endentry
+    \entry{speakerDriveSimple}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8bb7f6a645915c7c3e51be240142f931}{%
+           family={hamblen},
+           familyi={h\bibinitperiod},
+           prefix={jim},
+           prefixi={j\bibinitperiod}}}%
+      }
+      \strng{namehash}{8bb7f6a645915c7c3e51be240142f931}
+      \strng{fullhash}{8bb7f6a645915c7c3e51be240142f931}
+      \strng{bibnamehash}{8bb7f6a645915c7c3e51be240142f931}
+      \strng{authorbibnamehash}{8bb7f6a645915c7c3e51be240142f931}
+      \strng{authornamehash}{8bb7f6a645915c7c3e51be240142f931}
+      \strng{authorfullhash}{8bb7f6a645915c7c3e51be240142f931}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Using a Speaker for Audio Output}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://os.mbed.com/users/4180_1/notebook/using-a-speaker-for-audio-output/
+      \endverb
+      \verb{url}
+      \verb https://os.mbed.com/users/4180_1/notebook/using-a-speaker-for-audio-output/
+      \endverb
+      \warn{\item Entry 'speakerDriveSimple' (References.bib): Invalid format '2013-1-13' of date field 'date' - ignoring}
+    \endentry
+    \entry{amplifiers}{online}{}
+      \name{author}{1}{}{%
+        {{hash=fd429e0791c3ccbecaebc8595b389f12}{%
+           family={Storr},
+           familyi={S\bibinitperiod},
+           given={Wayne},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Electronics Tutorials}%
+      }
+      \strng{namehash}{fd429e0791c3ccbecaebc8595b389f12}
+      \strng{fullhash}{fd429e0791c3ccbecaebc8595b389f12}
+      \strng{bibnamehash}{fd429e0791c3ccbecaebc8595b389f12}
+      \strng{authorbibnamehash}{fd429e0791c3ccbecaebc8595b389f12}
+      \strng{authornamehash}{fd429e0791c3ccbecaebc8595b389f12}
+      \strng{authorfullhash}{fd429e0791c3ccbecaebc8595b389f12}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{26}
+      \field{month}{7}
+      \field{title}{Amplifier Classes}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.electronics-tutorials.ws/amplifier/amplifier-classes.html
+      \endverb
+      \verb{url}
+      \verb https://www.electronics-tutorials.ws/amplifier/amplifier-classes.html
+      \endverb
+    \endentry
+    \entry{classDamplifiercircuit}{online}{}
+      \name{author}{1}{}{%
+        {{hash=15c2d901e335017a53c103c7859e7c38}{%
+           family={"Rohitbd"},
+           familyi={"\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wikipedia}%
+      }
+      \strng{namehash}{15c2d901e335017a53c103c7859e7c38}
+      \strng{fullhash}{15c2d901e335017a53c103c7859e7c38}
+      \strng{bibnamehash}{15c2d901e335017a53c103c7859e7c38}
+      \strng{authorbibnamehash}{15c2d901e335017a53c103c7859e7c38}
+      \strng{authornamehash}{15c2d901e335017a53c103c7859e7c38}
+      \strng{authorfullhash}{15c2d901e335017a53c103c7859e7c38}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Block diagram of a basic switching or PWM (class-D) amplifier}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \warn{\item Entry 'classDamplifiercircuit' (References.bib): Invalid format '2006-7-7' of date field 'date' - ignoring}
+    \endentry
+    \entry{classDamplifier}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ab251a6379eacc0c1d43dbde3a57d8ef}{%
+           family={Gaalaas},
+           familyi={G\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Analogue Dialogue}%
+      }
+      \strng{namehash}{ab251a6379eacc0c1d43dbde3a57d8ef}
+      \strng{fullhash}{ab251a6379eacc0c1d43dbde3a57d8ef}
+      \strng{bibnamehash}{ab251a6379eacc0c1d43dbde3a57d8ef}
+      \strng{authorbibnamehash}{ab251a6379eacc0c1d43dbde3a57d8ef}
+      \strng{authornamehash}{ab251a6379eacc0c1d43dbde3a57d8ef}
+      \strng{authorfullhash}{ab251a6379eacc0c1d43dbde3a57d8ef}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Class D Amplifiers: What, Why, and How}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2006}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.analog.com/en/analog-dialogue/articles/class-d-audio-amplifiers.html
+      \endverb
+      \verb{url}
+      \verb https://www.analog.com/en/analog-dialogue/articles/class-d-audio-amplifiers.html
+      \endverb
+    \endentry
+    \entry{classAbiasing}{online}{}
+      \name{author}{1}{}{%
+        {{hash=87004389f6f6f4710311259172de4a31}{%
+           family={Coates},
+           familyi={C\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Lean About Electronics}%
+      }
+      \strng{namehash}{87004389f6f6f4710311259172de4a31}
+      \strng{fullhash}{87004389f6f6f4710311259172de4a31}
+      \strng{bibnamehash}{87004389f6f6f4710311259172de4a31}
+      \strng{authorbibnamehash}{87004389f6f6f4710311259172de4a31}
+      \strng{authornamehash}{87004389f6f6f4710311259172de4a31}
+      \strng{authorfullhash}{87004389f6f6f4710311259172de4a31}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Class A Biasing}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://learnabout-electronics.org/Amplifiers/amplifiers12.php
+      \endverb
+      \verb{url}
+      \verb https://learnabout-electronics.org/Amplifiers/amplifiers12.php
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,34 @@
+Limpet is adevice to improve the well-being
+
+3D mesh generation
+    GPS Method
+
+Audio Tone Start Detection
+    Ultrasonic simple solution
+    Audio Onset Method
+
+Distance Measurement
+    Not simple
+    RTC not accurate enough
+    Virtual Wall
+        Two way
+        Three Way
+
+Multi-device syncing
+    Multi step process
+        init decider
+        identify nearby
+        distance measurement
+        information distribution
+
+Implementation of Audio Tone Start Detection
+    Effective, fast, imperfect
+
+Further Development
+    Distance Measurement
+    Prototype Distance Measurement
+    Multi-device Syncing implementation
+    3D Mesh Geneartion implementation
+
+Life cycle analysis
+    

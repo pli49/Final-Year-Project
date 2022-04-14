@@ -1,0 +1,15 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'Laurence_Section.blg'
+[291] biber-MSWIN64:340> INFO - === 
+[385] Biber.pm:415> INFO - Reading 'Laurence_Section.bcf'
+[705] Biber.pm:952> INFO - Found 2 citekeys in bib section 0
+[745] Biber.pm:4340> INFO - Processing section 0
+[773] Biber.pm:4531> INFO - Looking for bibtex format file 'References.bib' for section 0
+[922] bibtex.pm:1689> INFO - LaTeX decoding ...
+[945] bibtex.pm:1494> INFO - Found BibTeX data source 'References.bib'
+[1030] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1030] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1030] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1030] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[1044] bbl.pm:654> INFO - Writing 'Laurence_Section.bbl' with encoding 'UTF-8'
+[1045] bbl.pm:757> INFO - Output to Laurence_Section.bbl
